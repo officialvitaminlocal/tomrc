@@ -24,7 +24,7 @@ html {
     font-weight: 300;
     margin-top: -8px;
     b {
-      font-weight: 400;
+      font-weight: 500;
       color: rgba(0, 0, 0, .64);
     }
   }
@@ -75,10 +75,29 @@ small.hero-joke {
   }
 }
 
-.edu {
+.experience {
   padding: 24px;
+  box-sizing: border-box;
+  height: 100vh;
+  background: rgba(0, 0, 0, .87);
   h2 {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+  }
+}
+
+.experience-badges {
+  padding: 24px 0;
+  width: 100%;
+  box-sizing: border-box;
+  figure {
+    width: 49.25%;
+    padding: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    img {
+      width: 100%;
+    }
   }
 }
