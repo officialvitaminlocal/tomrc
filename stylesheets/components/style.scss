@@ -24,7 +24,7 @@ html {
     font-weight: 300;
     margin-top: -8px;
     b {
-      font-weight: 500;
+      font-weight: 400;
       color: rgba(0, 0, 0, .64);
     }
   }
@@ -91,13 +91,11 @@ small.hero-joke {
   padding: 24px 0;
   width: 100%;
   box-sizing: border-box;
-  figure {
-    width: 49.25%;
-    padding: 24px;
-    box-sizing: border-box;
+  i {
     display: inline-block;
-    img {
-      width: 100%;
-    }
+    font-size:40vw;
+    padding:5vw;
+    box-sizing: border-box;
+    color: white;
   }
 }
